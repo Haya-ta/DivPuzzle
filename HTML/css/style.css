@@ -1,0 +1,70 @@
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+.wrapper {
+    width: 400px;
+}
+
+.header {
+    height: 100px;
+    background-color: red;
+}
+
+.main {
+    background-color: gray;
+}
+
+.left-content {
+    width: 150px;
+    height: 250px;
+    background-color: green;
+    float: left;
+}
+
+.right-contents {
+    width: 250px;
+    height: 250px;
+    background-color: pink;
+    float: left;
+}
+
+.right-contents--top {
+    height: 150px;
+    background-color: blueviolet;
+}
+
+.right-contents--top__left {
+    height: 150px;
+    width: 150px;
+    background-color: beige;
+    float: left;
+}
+
+.right-contents--top__left__top {
+    height: 50px;
+    width: 150px;
+    background-color: darkcyan;
+    float: left;
+}
+
+.right-contents--top__left__bottom {
+    height: 100px;
+    width: 150px;
+    background-color: greenyellow;
+    float: left;
+}
+
+.right-contents--top__right {
+    height: 150px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+.footer {
+    height: 100px;
+    background-color: blue;
+}
