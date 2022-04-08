@@ -13,10 +13,6 @@
     background-color: #141f40;
 }
 
-.main {
-    height: 250px;
-}
-
 .left-content {
     width: 150px;
     height: 250px;
@@ -57,7 +53,7 @@
     height: 150px;
     width: 100px;
     background-color: #ff9e6b;
-    float: left;
+    float: right;
 }
 
 .right-contents--bottom {
@@ -68,4 +64,73 @@
 .footer {
     height: 100px;
     background-color: #d98d30;
+}
+
+@media screen and (max-width:767px) and (min-width:480px) {
+    .wrapper {
+        width: 300px;
+    }
+
+    .left-content {
+        width: 100px;
+    }
+
+    .right-contents {
+        width: 200px;
+    }
+
+    .right-contents--top__left {
+        width: 125px;
+    }
+
+    .right-contents--top__left__top {
+        width: 125px;
+    }
+
+    .right-contents--top__left__bottom {
+        width: 125px;
+    }
+
+    .right-contents--top__right {
+        width: 75px; 
+    }
+}
+
+@media screen and (max-width:479px) {
+    .wrapper {
+        width: 150px;
+    }
+
+    .left-content {
+        width: 150px;
+        height: 100px;
+        float: none;
+    }
+
+    .right-contents {
+        width: 150px;
+    }
+
+    .right-contents--top {
+        height: 250px;
+    }
+
+    .right-contents--top__left {
+        width: 150px;
+        float: none;
+    }
+
+    .right-contents--top__left__top {
+        width: 150px;
+    }
+
+    .right-contents--top__left__bottom {
+        width: 150px;
+    }
+
+    .right-contents--top__right {
+        height: 100px;
+        width: 150px;
+        float: none;
+    }
 }
